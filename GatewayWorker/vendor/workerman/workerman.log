@@ -1,0 +1,224 @@
+2019-04-26 18:06:53 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #356)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-26 18:06:53 pid:1 Worker process terminated
+2019-04-26 18:09:30 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-26 18:09:30 pid:1 Worker process terminated
+2019-04-27 08:34:51 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:34:51 pid:1 Worker process terminated
+2019-04-27 08:35:32 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:35:32 pid:1 Worker process terminated
+2019-04-27 08:35:41 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:35:41 pid:1 Worker process terminated
+2019-04-27 08:36:01 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:01 pid:1 Worker process terminated
+2019-04-27 08:36:03 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:03 pid:1 Worker process terminated
+2019-04-27 08:36:08 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:08 pid:1 Worker process terminated
+2019-04-27 08:36:44 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:44 pid:1 Worker process terminated
+2019-04-27 08:36:49 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:49 pid:1 Worker process terminated
+2019-04-27 08:36:54 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:36:54 pid:1 Worker process terminated
+2019-04-27 08:37:27 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:37:27 pid:1 Worker process terminated
+2019-04-27 08:37:39 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:37:39 pid:1 Worker process terminated
+2019-04-27 08:37:55 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(2321): Workerman\Events\Select->loop()
+#7 C:\WWW\lzl\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#8 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\Gateway->run()
+#9 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 C:\WWW\lzl\GatewayWorker\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 C:\WWW\lzl\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#12 {main}
+2019-04-27 08:37:55 pid:1 Worker process terminated

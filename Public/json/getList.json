@@ -1,0 +1,36 @@
+{
+  "code": 0
+  ,"msg": ""
+  ,"data": {
+    "mine": {
+      "username": "飞机"
+      ,"id": "1"
+      ,"status": "online"
+      ,"sign": "在深邃的编码世界，做一枚轻盈的纸飞机"
+      ,"avatar": "http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg"
+    }
+    ,"friend": [{
+      "groupname": "前端码屌"
+      ,"id": 3
+      ,"online": 2
+      ,"list": [{
+        "username": "加强"
+        ,"id": "6"
+        ,"avatar": "http://tp1.sinaimg.cn/1571889140/180/40030060651/1"
+        ,"sign": ""
+      },
+			{
+				"username": "纸飞机"
+				,"id": "1"
+			}
+			
+			]
+    },{
+      "groupname": "网红"
+      ,"id": 2
+      ,"online": 3
+      ,"list": []
+    }]
+    
+  }
+}
